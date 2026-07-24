@@ -1,0 +1,24 @@
+# Documentation Contract — docs-manifest.yml
+# Engineering Knowledge Platform | Application-Management-Division
+#
+# Scaffolded automatically by platform onboarding rollout.
+# ACTION REQUIRED by the owning team:
+#   1. Set owner_team to your GitHub Team slug (uncomment below).
+#   2. Confirm the proposed profile is correct.
+#   3. Replace [placeholder] content in every scaffolded doc.
+#
+# Schema: https://github.com/Application-Management-Division/engineering-knowledge-platform_CSO/blob/main/standards/docs-manifest-schema.json
+
+version: "1.0"
+profile: library   # PROPOSED — confirm this matches your repository
+lifecycle: active
+
+# TODO: set your accountable GitHub Team slug then uncomment:
+# owner_team: "your-team-slug"
+
+assets:
+  readme: README.md
+  changelog: CHANGELOG.md
+  api_reference: docs/api-reference.md
+
+last_reviewed: 2026-07-24
